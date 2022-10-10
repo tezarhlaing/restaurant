@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6B6353128F42C120011BD7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B6353028F42C120011BD7F /* AppDelegate.swift */; };
+		E6B6353328F42C120011BD7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B6353228F42C120011BD7F /* SceneDelegate.swift */; };
+		E6B6353528F42C120011BD7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B6353428F42C120011BD7F /* ViewController.swift */; };
+		E6B6353828F42C120011BD7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B6353628F42C120011BD7F /* Main.storyboard */; };
+		E6B6353A28F42C140011BD7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B6353928F42C140011BD7F /* Assets.xcassets */; };
+		E6B6353D28F42C140011BD7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B6353B28F42C140011BD7F /* LaunchScreen.storyboard */; };
+		E6B6354828F42C140011BD7F /* Abacus_AssgTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B6354728F42C140011BD7F /* Abacus_AssgTests.swift */; };
+		E6B6355228F42C140011BD7F /* Abacus_AssgUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B6355128F42C140011BD7F /* Abacus_AssgUITests.swift */; };
+		E6B6355428F42C140011BD7F /* Abacus_AssgUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B6355328F42C140011BD7F /* Abacus_AssgUITestsLaunchTests.swift */; };
+		E6B6356228F42E260011BD7F /* Invoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B6356128F42E260011BD7F /* Invoice.swift */; };
+		E6B6356728F43BE70011BD7F /* InvoiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B6356528F43BE70011BD7F /* InvoiceTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6B6354428F42C140011BD7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B6352528F42C120011BD7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6B6352C28F42C120011BD7F;
+			remoteInfo = "Abacus-Assg";
+		};
+		E6B6354E28F42C140011BD7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B6352528F42C120011BD7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6B6352C28F42C120011BD7F;
+			remoteInfo = "Abacus-Assg";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6B6352D28F42C120011BD7F /* Abacus-Assg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abacus-Assg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B6353028F42C120011BD7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6B6353228F42C120011BD7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E6B6353428F42C120011BD7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6B6353728F42C120011BD7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6B6353928F42C140011BD7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6B6353C28F42C140011BD7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6B6353E28F42C140011BD7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B6354328F42C140011BD7F /* Abacus-AssgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abacus-AssgTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B6354728F42C140011BD7F /* Abacus_AssgTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abacus_AssgTests.swift; sourceTree = "<group>"; };
+		E6B6354D28F42C140011BD7F /* Abacus-AssgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abacus-AssgUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B6355128F42C140011BD7F /* Abacus_AssgUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abacus_AssgUITests.swift; sourceTree = "<group>"; };
+		E6B6355328F42C140011BD7F /* Abacus_AssgUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abacus_AssgUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6B6356128F42E260011BD7F /* Invoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invoice.swift; sourceTree = "<group>"; };
+		E6B6356528F43BE70011BD7F /* InvoiceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6B6352A28F42C120011BD7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B6354028F42C140011BD7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B6354A28F42C140011BD7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6B6352428F42C120011BD7F = {
+			isa = PBXGroup;
+			children = (
+				E6B6352F28F42C120011BD7F /* Abacus-Assg */,
+				E6B6354628F42C140011BD7F /* Abacus-AssgTests */,
+				E6B6355028F42C140011BD7F /* Abacus-AssgUITests */,
+				E6B6352E28F42C120011BD7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6B6352E28F42C120011BD7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6B6352D28F42C120011BD7F /* Abacus-Assg.app */,
+				E6B6354328F42C140011BD7F /* Abacus-AssgTests.xctest */,
+				E6B6354D28F42C140011BD7F /* Abacus-AssgUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6B6352F28F42C120011BD7F /* Abacus-Assg */ = {
+			isa = PBXGroup;
+			children = (
+				E6B6356028F42CAC0011BD7F /* Model */,
+				E6B6353028F42C120011BD7F /* AppDelegate.swift */,
+				E6B6353228F42C120011BD7F /* SceneDelegate.swift */,
+				E6B6353428F42C120011BD7F /* ViewController.swift */,
+				E6B6353628F42C120011BD7F /* Main.storyboard */,
+				E6B6353928F42C140011BD7F /* Assets.xcassets */,
+				E6B6353B28F42C140011BD7F /* LaunchScreen.storyboard */,
+				E6B6353E28F42C140011BD7F /* Info.plist */,
+				E6B6356528F43BE70011BD7F /* InvoiceTableViewController.swift */,
+			);
+			path = "Abacus-Assg";
+			sourceTree = "<group>";
+		};
+		E6B6354628F42C140011BD7F /* Abacus-AssgTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6B6354728F42C140011BD7F /* Abacus_AssgTests.swift */,
+			);
+			path = "Abacus-AssgTests";
+			sourceTree = "<group>";
+		};
+		E6B6355028F42C140011BD7F /* Abacus-AssgUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6B6355128F42C140011BD7F /* Abacus_AssgUITests.swift */,
+				E6B6355328F42C140011BD7F /* Abacus_AssgUITestsLaunchTests.swift */,
+			);
+			path = "Abacus-AssgUITests";
+			sourceTree = "<group>";
+		};
+		E6B6356028F42CAC0011BD7F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6B6356128F42E260011BD7F /* Invoice.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6B6352C28F42C120011BD7F /* Abacus-Assg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B6355728F42C140011BD7F /* Build configuration list for PBXNativeTarget "Abacus-Assg" */;
+			buildPhases = (
+				E6B6352928F42C120011BD7F /* Sources */,
+				E6B6352A28F42C120011BD7F /* Frameworks */,
+				E6B6352B28F42C120011BD7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Abacus-Assg";
+			productName = "Abacus-Assg";
+			productReference = E6B6352D28F42C120011BD7F /* Abacus-Assg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6B6354228F42C140011BD7F /* Abacus-AssgTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B6355A28F42C140011BD7F /* Build configuration list for PBXNativeTarget "Abacus-AssgTests" */;
+			buildPhases = (
+				E6B6353F28F42C140011BD7F /* Sources */,
+				E6B6354028F42C140011BD7F /* Frameworks */,
+				E6B6354128F42C140011BD7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6B6354528F42C140011BD7F /* PBXTargetDependency */,
+			);
+			name = "Abacus-AssgTests";
+			productName = "Abacus-AssgTests";
+			productReference = E6B6354328F42C140011BD7F /* Abacus-AssgTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6B6354C28F42C140011BD7F /* Abacus-AssgUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B6355D28F42C140011BD7F /* Build configuration list for PBXNativeTarget "Abacus-AssgUITests" */;
+			buildPhases = (
+				E6B6354928F42C140011BD7F /* Sources */,
+				E6B6354A28F42C140011BD7F /* Frameworks */,
+				E6B6354B28F42C140011BD7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6B6354F28F42C140011BD7F /* PBXTargetDependency */,
+			);
+			name = "Abacus-AssgUITests";
+			productName = "Abacus-AssgUITests";
+			productReference = E6B6354D28F42C140011BD7F /* Abacus-AssgUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6B6352528F42C120011BD7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E6B6352C28F42C120011BD7F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					E6B6354228F42C140011BD7F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E6B6352C28F42C120011BD7F;
+					};
+					E6B6354C28F42C140011BD7F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E6B6352C28F42C120011BD7F;
+					};
+				};
+			};
+			buildConfigurationList = E6B6352828F42C120011BD7F /* Build configuration list for PBXProject "Abacus-Assg" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6B6352428F42C120011BD7F;
+			productRefGroup = E6B6352E28F42C120011BD7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6B6352C28F42C120011BD7F /* Abacus-Assg */,
+				E6B6354228F42C140011BD7F /* Abacus-AssgTests */,
+				E6B6354C28F42C140011BD7F /* Abacus-AssgUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6B6352B28F42C120011BD7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B6353D28F42C140011BD7F /* LaunchScreen.storyboard in Resources */,
+				E6B6353A28F42C140011BD7F /* Assets.xcassets in Resources */,
+				E6B6353828F42C120011BD7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B6354128F42C140011BD7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B6354B28F42C140011BD7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6B6352928F42C120011BD7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B6356728F43BE70011BD7F /* InvoiceTableViewController.swift in Sources */,
+				E6B6353528F42C120011BD7F /* ViewController.swift in Sources */,
+				E6B6356228F42E260011BD7F /* Invoice.swift in Sources */,
+				E6B6353128F42C120011BD7F /* AppDelegate.swift in Sources */,
+				E6B6353328F42C120011BD7F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B6353F28F42C140011BD7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B6354828F42C140011BD7F /* Abacus_AssgTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B6354928F42C140011BD7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B6355228F42C140011BD7F /* Abacus_AssgUITests.swift in Sources */,
+				E6B6355428F42C140011BD7F /* Abacus_AssgUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6B6354528F42C140011BD7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6B6352C28F42C120011BD7F /* Abacus-Assg */;
+			targetProxy = E6B6354428F42C140011BD7F /* PBXContainerItemProxy */;
+		};
+		E6B6354F28F42C140011BD7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6B6352C28F42C120011BD7F /* Abacus-Assg */;
+			targetProxy = E6B6354E28F42C140011BD7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6B6353628F42C120011BD7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6B6353728F42C120011BD7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6B6353B28F42C140011BD7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6B6353C28F42C140011BD7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6B6355528F42C140011BD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6B6355628F42C140011BD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6B6355828F42C140011BD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UK54B597W5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Abacus-Assg/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mytest.com.Abacus-Assg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6B6355928F42C140011BD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UK54B597W5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Abacus-Assg/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mytest.com.Abacus-Assg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6B6355B28F42C140011BD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UK54B597W5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mytest.com.Abacus-AssgTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abacus-Assg.app/Abacus-Assg";
+			};
+			name = Debug;
+		};
+		E6B6355C28F42C140011BD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UK54B597W5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mytest.com.Abacus-AssgTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abacus-Assg.app/Abacus-Assg";
+			};
+			name = Release;
+		};
+		E6B6355E28F42C140011BD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UK54B597W5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mytest.com.Abacus-AssgUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Abacus-Assg";
+			};
+			name = Debug;
+		};
+		E6B6355F28F42C140011BD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UK54B597W5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mytest.com.Abacus-AssgUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Abacus-Assg";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6B6352828F42C120011BD7F /* Build configuration list for PBXProject "Abacus-Assg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B6355528F42C140011BD7F /* Debug */,
+				E6B6355628F42C140011BD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B6355728F42C140011BD7F /* Build configuration list for PBXNativeTarget "Abacus-Assg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B6355828F42C140011BD7F /* Debug */,
+				E6B6355928F42C140011BD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B6355A28F42C140011BD7F /* Build configuration list for PBXNativeTarget "Abacus-AssgTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B6355B28F42C140011BD7F /* Debug */,
+				E6B6355C28F42C140011BD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B6355D28F42C140011BD7F /* Build configuration list for PBXNativeTarget "Abacus-AssgUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B6355E28F42C140011BD7F /* Debug */,
+				E6B6355F28F42C140011BD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6B6352528F42C120011BD7F /* Project object */;
+}
